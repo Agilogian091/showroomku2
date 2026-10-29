@@ -23,12 +23,6 @@ SHOWROOMKU membantu calon pembeli mengenal showroom, melihat katalog mobil yang 
 ## Teknologi
 HTML5, CSS3, JavaScript dasar (tanpa framework, tanpa backend). Git dan GitHub untuk kolaborasi.
 
-## Cara Menjalankan Secara Lokal
-```bash
-git clone https://github.com/<username>/<nama-repo>.git
-cd <nama-repo>
-```
-Lalu buka `index.html` di browser (klik dua kali, atau gunakan ekstensi Live Server di VS Code).
 
 ## Pembagian Tugas dan Kontribusi
 | Anggota | Issue | Branch | Pull Request | Ringkasan kontribusi |
@@ -40,7 +34,3 @@ Lalu buka `index.html` di browser (klik dua kali, atau gunakan ekstensi Live Ser
 
 Detail tugas ada di tab **Issues** repository ini.
 
-## Dokumentasi Tampilan
-Screenshot ada di folder [`screenshots/`](screenshots/).
-
-<!-- Contoh: ![Beranda](screenshots/home.png) -->
