@@ -8,10 +8,10 @@ SHOWROOMKU membantu calon pembeli mengenal showroom, melihat katalog mobil yang 
 ## Anggota Kelompok
 | Nama | Username GitHub | Peran utama |
 |------|-----------------|-------------|
-| (isi nama) | @username | (mis. Navbar) |
+| (Agilo Gian Pandega) | @Agilogian | (mis. Navbar) |
 | Fikri Imam Bhakti Perwira | @fikricilegon18-ops | Hero & About |
-| (isi nama) | @username | (mis. Katalog) |
-| (isi nama) | @username | (mis. Kontak & Footer) |
+| (Asfa Faturohman) | @Asfa F | (mis. Katalog) |
+| (Dwiki Hardiansyah) | @DwikiIan | (mis. Kontak & Footer) |
 
 ## Fitur / Section
 - **Navbar**: navigasi antarseksi, menu responsif di layar kecil.
@@ -33,10 +33,10 @@ Lalu buka `index.html` di browser (klik dua kali, atau gunakan ekstensi Live Ser
 ## Pembagian Tugas dan Kontribusi
 | Anggota | Issue | Branch | Pull Request | Ringkasan kontribusi |
 |---------|-------|--------|--------------|----------------------|
-| (nama) | #1 | `feature/navbar` | #… | (isi setelah selesai) |
-| Fikri Imam Bhakti Perwira | #2 , #3 | `feature/hero` , `feature/about` | #11,#12 | Menambahkan about.css , hero.css , js/hero.js & index.html |
-| (nama) | #4, #5 | `feature/catalog` | #… | (isi setelah selesai) |
-| (nama) | #6, #7 | `feature/contact`, `feature/footer` | #… | (isi setelah selesai) |
+| (Agilo Gian Pandega) | #1 | `feature/navbar` | #… | (isi setelah selesai) |
+| Fikri Imam Bhakti Perwira | #2 , #3 | `feature/hero` , `feature/about` | #11,#12 | (Menambahkan about.css , hero.css , js/hero.js & index.html) |
+| (Asfa Faturohman) | #4, #5 | `feature/catalog` | #… | (isi setelah selesai) |
+| (Dwiki Hardiansyah) | #6, #7 | `feature/contact`, `feature/footer` | #… | (isi setelah selesai) |
 
 Detail tugas ada di tab **Issues** repository ini.
 
