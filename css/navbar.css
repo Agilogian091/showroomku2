@@ -1,1 +1,25 @@
-/* navbar.css – diisi oleh anggota yang bertanggung jawab (lihat docs/ISSUES.md) */
+/* navbar.css – d/* navbar.css – Navbar */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(244,246,248,.92); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.nav { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+.brand { font: 800 1.25rem var(--font-head); letter-spacing: .02em; text-decoration: none; }
+.brand span { color: var(--paint); }
+.nav-menu { display: flex; gap: 28px; }
+.nav-menu a { text-decoration: none; font-weight: 500; padding: 6px 0; border-bottom: 2px solid transparent; }
+.nav-menu a:hover { border-color: var(--paint); }
+
+.nav-toggle { display: none; background: none; border: 0; padding: 8px; cursor: pointer; }
+.nav-toggle span { display: block; width: 24px; height: 2px; background: var(--ink); margin: 5px 0; }
+
+@media (max-width: 800px) {
+  .nav-toggle { display: block; }
+  .nav-menu {
+    position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; gap: 0;
+    background: var(--bone); border-bottom: 1px solid var(--line); display: none;
+  }
+  .nav-menu.is-open { display: flex; }
+  .nav-menu a { display: block; padding: 14px 24px; border: 0; }
+}
