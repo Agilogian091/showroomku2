@@ -1,1 +1,9 @@
 /* footer.css – diisi oleh anggota yang bertanggung jawab (lihat docs/ISSUES.md) */
+/* footer.css – Footer */
+.site-footer { background: var(--ink); color: #C7D0D9; padding: 40px 24px; }
+.footer-inner { max-width: var(--maxw); margin: 0 auto; display: flex; flex-wrap: wrap; gap: 20px 40px; align-items: center; justify-content: space-between; }
+.site-footer .brand { color: var(--white); }
+.footer-links { display: flex; gap: 24px; }
+.footer-links a { text-decoration: none; }
+.footer-links a:hover { color: var(--white); text-decoration: underline; }
+.footer-inner p { margin: 0; width: 100%; font-size: .9rem; border-top: 1px solid #2A3541; padding-top: 18px; }
